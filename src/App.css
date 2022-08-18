@@ -36,3 +36,81 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+  background-color: #f55a5a;
+  color: #ffffff;
+  height: 65px;
+  font-size: 20px;
+}
+
+header > i {
+  font-size: 23px;
+}
+
+header > * {
+  align-self: center;
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.sectionTravel {
+  margin-top: 35px;
+}
+
+.sectionTravel img {
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.sectionTravelDetail {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.location {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.sectionTravelRight .country {
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.sectionTravelRight .country::before {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font: var(--fa-font-solid);
+  content: "\f3c5";
+  padding-right: 3px;
+  color: #f55a5a;
+}
+
+.location a {
+  color: #918e9b;
+}
+
+.sectionTravelRight h1 {
+  margin-top: 0;
+}
+
+.sectionTravelRight h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.sectionTravelRight p {
+  margin-top: 0;
+}
